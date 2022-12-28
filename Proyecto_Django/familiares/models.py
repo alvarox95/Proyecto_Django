@@ -6,3 +6,4 @@ class familiares(models.Model):
     apellido = models.CharField(max_length=100)
     edad = models.IntegerField()
     trabajador = models.BooleanField()
+    pariente = models.CharField(default="Hermano", max_length=100)
